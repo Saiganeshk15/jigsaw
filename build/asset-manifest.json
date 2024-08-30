@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2ab68f4.css",
+    "main.js": "/static/js/main.3be8209f.js",
+    "static/js/453.df747346.chunk.js": "/static/js/453.df747346.chunk.js",
+    "static/media/prathiba_logo.jpg": "/static/media/prathiba_logo.48c62b3d428ec80d9a14.jpg",
+    "index.html": "/index.html",
+    "main.d2ab68f4.css.map": "/static/css/main.d2ab68f4.css.map",
+    "main.3be8209f.js.map": "/static/js/main.3be8209f.js.map",
+    "453.df747346.chunk.js.map": "/static/js/453.df747346.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ab68f4.css",
+    "static/js/main.3be8209f.js"
+  ]
+}
