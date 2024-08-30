@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #1f1f1f;
+}
+
+.popup{
+    position: fixed;
+    background-color: #636363;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    top: 30%;
+    margin: 0px auto;
+    max-width: 350px;
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    h3{
+        margin-bottom: 20px;
+    }
+    input[type="text"]{
+        outline: none;
+        border: 2px solid rgb(0, 64, 255);
+        border-radius: 5px;
+        padding-left: 5px;
+        height: 30px;
+        width: 250px;
+    }
+    input:focus, input:valid{
+        border: 2px solid rgb(0, 64, 255);
+    }
+    p{
+        font-size: smaller;
+        margin-bottom: 30px;
+        color: rgb(103, 1, 1);
+    }
+    input[type="submit"]{
+        outline: none;
+        border: 2px solid rgb(0, 64, 255);
+        border-radius: 5px;
+        height: 30px;
+        width: 140px;
+        margin: auto;
+        font-weight: 900;
+    }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.gameBoard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        color: #f1f1f1;
+        font-size: medium;
+        text-align: center;
+    }
+    .solution{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+}
+.jigsaw-puzzle{
+    width: 60%;
+}
+
+.waiting-text{
+    color: #f1f1f1;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .jigsaw-puzzle{
+        width: 70%;
+        margin: auto;
+    }
+    .solution > img{
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    table{
+        margin-top: 5%;
+        width: 500px !important;
+        font-size: larger !important;
+    }
+    .tname{
+        width: 50%;
+    }
+    .jigsaw-puzzle{
+        width: 350px;
+        margin: auto;
+    }
+    .solution > img{
+        max-width: 100px;
+    }
+}
+
+table{
+    width: 100%;
+    color: aliceblue;
+    text-align: left;
+    tr{
+        padding: 3px 2px;
+    }
+}
+
+.tname{
+    width: 90%;
+}
+
+h1{
+    color: aliceblue;
+}

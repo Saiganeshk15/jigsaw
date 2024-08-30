@@ -1,0 +1,47 @@
+/* Timer.css */
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .circular-progress {
+    transform: rotate(-90deg); /* Rotate to start from the top */
+  }
+  
+  .circular-progress .background {
+    fill: none;
+    stroke: #e6e6e6;
+  }
+  
+  .circular-progress .progress {
+    fill: none;
+    stroke: #4caf50; /* Green color for progress */
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.3s ease;
+  }
+  
+  .timer-text {
+    font-size: 24px;
+    fill: #333; /* Color for the text */
+    text-anchor: middle;
+  }
+  
+  .timer-controls {
+    margin-top: 20px;
+  }
+  
+  .timer-controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .timer-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
